@@ -27,8 +27,8 @@ Anaconda - Python 3.7
 
 ## Program:
 ``` Python
-### Developed By:PRAVIN RAJ A
-### Register No:212222240079
+### Developed By:Berjin Shabeck
+### Register No:212222240018
 
 ## i) Write the frame as JPG file
 
@@ -50,7 +50,7 @@ import cv2
 cap=cv2.VideoCapture(0)
 while True:
     ret,frame=cap.read()
-    cv2.imshow('212222240079_pravin',frame)
+    cv2.imshow('212222240018_berjin',frame)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -73,7 +73,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=smaller_frame
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('212222240079_pravin',image)
+    cv2.imshow('212222240018_berjin',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -96,7 +96,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=cv2.rotate(smaller_frame,cv2.ROTATE_180)
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('212222240079_pravin',image)
+    cv2.imshow('212222240018_berjin',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -106,25 +106,25 @@ cv2.destroyAllWindows()
 ## Output
 
 ### i) Write the frame as JPG image
-</br>![WIN_20240221_21_55_10_Pro](https://github.com/Meetha22003992/Image_Acqusition-_using_Web_Camera/assets/119401038/dc958383-6b25-4ffb-9f4b-834287d88aab)
+</br>![WIN_20240221_21_55_10_Pro](https://github.com/berjin/Image_Acqusition-_using_Web_Camera/assets/119401038/dc958383-6b25-4ffb-9f4b-834287d88aab)
 
 </br>
 
 ### ii) Display the video
 
-![306707482-79d2b6ea-5df2-4745-92b9-86bdfc5eeafc](https://github.com/Apravinraj/Image_Acqusition-_using_Web_Camera/assets/118707879/b444511f-818e-4898-a1a3-f6a6c6b0ed33)
+![306707482-79d2b6ea-5df2-4745-92b9-86bdfc5eeafc](https://github.com/berjin/Image_Acqusition-_using_Web_Camera/assets/118707879/b444511f-818e-4898-a1a3-f6a6c6b0ed33)
 
 </br>
 
 ### iii) Display the video by resizing the window
 
-![306707562-bb61055e-9b6d-418b-a7bc-c6bb56ab18aa](https://github.com/Apravinraj/Image_Acqusition-_using_Web_Camera/assets/118707879/06e08b07-6d27-4617-8c15-0975e931dfea)
+![306707562-bb61055e-9b6d-418b-a7bc-c6bb56ab18aa](https://github.com/berjin/Image_Acqusition-_using_Web_Camera/assets/118707879/06e08b07-6d27-4617-8c15-0975e931dfea)
 
 </br>
 
 ### iv) Rotate and display the video
 
-![306707647-cff52233-6cfb-476e-8c9b-6d204c97b31a](https://github.com/Apravinraj/Image_Acqusition-_using_Web_Camera/assets/118707879/f1854c6f-d497-48ac-a470-c4338e315a01)
+![306707647-cff52233-6cfb-476e-8c9b-6d204c97b31a](https://github.com/berjin/Image_Acqusition-_using_Web_Camera/assets/118707879/f1854c6f-d497-48ac-a470-c4338e315a01)
 
 </br>
 
